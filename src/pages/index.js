@@ -1,13 +1,21 @@
-import Head from "next/head";
-import Header from "../components/Header";
+import Head from 'next/head'
+import Banner from '../components/Banner'
+import Header from '../components/Header'
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Amazon Clone</title>
-      </Head>
-      <Header />
-    </div>
-  );
+    return (
+        <div className="bg-grey-100">
+            <Head>
+                <title>Amazon Clone</title>
+            </Head>
+            <Header />
+            <main className="max-w-screen-xl mx-auto">
+                {/* Banner */}
+
+                <Banner />
+
+                {/* ProductFeed */}
+            </main>
+        </div>
+    )
 }
