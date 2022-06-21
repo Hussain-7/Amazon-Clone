@@ -1,3 +1,4 @@
+# Amazon Clone
 # Installation Steps
 
 ## Using npm
